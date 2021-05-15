@@ -16,7 +16,7 @@ main{
 
 }
 
-.div1{background: yellow}
+.div1{background: rgb(83, 2, 63)}
 .div2{background: rgb(255, 0, 191);
      grid-column: 1/-1;
 
