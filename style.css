@@ -1,0 +1,36 @@
+*{
+    margin:0; padding:0;
+}
+
+main{
+    width:90%;
+    margin:50px auto;
+    border:1px solid rgb(36, 49, 224);
+    color:beige;
+    display:grid;
+    grid-template-rows: repeat(2,150px);
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:10px;
+    column-gap:10px;
+    grid-auto-rows: 200px;
+
+}
+
+.div1{background: yellow}
+.div2{background: rgb(255, 0, 191);
+     grid-column: 1/-1;
+
+}
+.div3{background: rgb(0, 255, 55);
+    grid-column: 1/-1;
+}
+.div4{background: rgb(255, 0, 0)}
+.div5{background: rgb(5, 61, 9);
+    
+     grid-row:1/2;
+     grid-column:2/4;
+
+
+
+}
+.div6{background: rgb(57, 14, 214)}
